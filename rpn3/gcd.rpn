@@ -1,0 +1,2 @@
+[_gcd:2 c0=?q:a $a s$a mod _gcd ] 
+[gcd:2 floor s floor s _gcd o] #Loaded Function: gcd

@@ -1,0 +1,16 @@
+[_factorial_mult:0
+	l 1 =
+	?q
+	*
+	_factorial_mult
+]
+[_factorial_prep:0
+	l 1 +
+	l $a <
+	?_factorial_prep
+]
+[factorial:1
+	:a
+	_factorial_prep
+	_factorial_mult
+] #Loaded Function: factorial

@@ -1,0 +1,35 @@
+[bottlesend:0
+# bottles of beer on the wall.
+#
+#No more 
+# bottles of beer on the wall, 
+#No more
+# bottles of beer.
+# Go to the store and buy some more, 
+99px
+# bottles of beer on the wall.
+]
+
+[bottlesmid:0
+p
+c1=? # bottle of beer on the wall,
+c1>? # bottles of beer on the wall,
+
+p
+c1=? # bottle of beer.
+c1>? # bottles of beer.
+
+# Take one down, pass it around.
+1-c0>?p
+c0=? #No more
+c1=? # bottle of beer on the wall.
+c1>? # bottles of beer on the wall.
+c0=? bottlesend
+#
+c0>? bottlesmid
+]
+
+[bottles:1
+bottlesmid
+]
+#Loaded Function: bottles

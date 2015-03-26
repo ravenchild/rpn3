@@ -1,0 +1,11 @@
+[_factorialB:2sc1=?q1-:a $a s$a *_factorialB ]
+[factorialB:1 1sfloor c1<=?oc _factorialB sc1=?1soso ]
+
+[_gcdB:2 c0=?q:a $a s$a mod gcdB ] 
+[gcdB:2 floor s floor s gcdB o]
+
+[_factorialA_mult:l1=?q*_factorialA_mult ] [_factorialA_prep:l1+l$a <?_factorialA_prep ] [factorialA:1:a _factorialA_prep _factorialA_mult ]
+
+
+
+
